@@ -11,7 +11,7 @@ const Navbar = () => {
             <a className='mr-5 hover:text-blue-900' href="#">Contact</a>
             <a className='mr-5 hover:text-blue-900' href="#">About</a>
         </nav>
-        <button className='inline-flex items-center bg-blue-900 border-0 py-1 px-3 focus:outline-none hover:by-gray-900'>Get started</button>
+        <button className='inline-flex items-center bg-blue-900 border-0 py-1 px-3 focus:outline-none hover:by-gray-900 rounded'>Get started</button>
         <button></button>
       </div>
       <div></div>
