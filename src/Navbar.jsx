@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from './Btn'
 
 const Navbar = () => {
   return (
@@ -12,8 +13,7 @@ const Navbar = () => {
             <a className='mr-5 hover:text-blue-900' href="#">Contact</a>
             <a className='mr-5 hover:text-blue-900' href="#">About</a>
         </nav>
-        <button className='inline-flex items-center bg-white-900 border-0 py-1 px-3 text-white-900 font-bold focus:outline-none hover:by-gray-900 rounded text-base mt-4 md:mt-0'>Get started</button>
-        <button></button>
+        <Button>Get Started</Button>
       </div>
     </header>
   )
